@@ -24,6 +24,5 @@ class Test(unittest.TestCase):
         self.assertTrue((end_time - start_time) < 1)
         self.assertEqual(answer, expected)
 
-
 if __name__ == '__main__':
     unittest.main()
